@@ -1,0 +1,3 @@
+[submodule "greeno"]
+	path = greeno
+	url = git@github.com:greeno-System/greeno.git
