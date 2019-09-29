@@ -1,3 +1,6 @@
 [submodule "greeno"]
 	path = greeno
 	url = git@github.com:greeno-System/greeno.git
+[submodule "web"]
+	path = web
+	url = git@github.com:greeno-System/web.git
