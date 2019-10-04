@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<equipment>
+    <connections>
+        <connection>bluetooth</connection>
+    </connections>
+    <dataInterfaces>
+        <dataInterface>flask</dataInterface>
+        <dataInterface>bluetooth</dataInterface>
+    </dataInterfaces>
+</equipment>
