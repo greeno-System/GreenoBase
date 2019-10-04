@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<system>
+<system 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lib/schema/system.xsd">
+
     <name>Greeno</name>
     <version>1.0.0</version>
-    <applicationProcessName>greeno</applicationProcessName>
-    <equipmentFilePath>../equipment.xml</equipmentFilePath>
+    <applicationProcess>greeno</applicationProcess>
 </system>
