@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<equipment>
+<equipment
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lib/schema/equipment.xsd">
+
     <connections>
-        <connection>bluetooth</connection>
+        <connection name="bluetooth" />
     </connections>
+
     <dataInterfaces>
-        <dataInterface>flask</dataInterface>
-        <dataInterface>bluetooth</dataInterface>
+        <dataInterface name="bluetooth" />
+        <dataInterface name="flask" />
     </dataInterfaces>
+
 </equipment>
