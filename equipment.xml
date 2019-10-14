@@ -3,13 +3,19 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="lib/schema/equipment.xsd">
 
-    <connections>
-        <connection name="bluetooth" />
-    </connections>
+    <customLoadPath>default/equipment</customLoadPath>
 
-    <dataInterfaces>
-        <dataInterface name="bluetooth" />
-        <dataInterface name="flask" />
-    </dataInterfaces>
+    <defaults>
+
+        <group name="connections">
+            <component name="bluetooth" />
+        </group>
+
+        <group name="dataInterfaces">
+            <component name="bluetooth" />
+            <component name="flask" />
+        </group>
+    
+    </defaults>
 
 </equipment>
