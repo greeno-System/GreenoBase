@@ -6,4 +6,8 @@
     <name>Greeno</name>
     <version>1.0.0</version>
     <applicationProcess>greeno</applicationProcess>
+
+    <config>
+        <debug>true</debug>
+    </config>
 </system>
