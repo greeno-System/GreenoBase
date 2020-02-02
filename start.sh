@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "RUNNING" > APPLICATION_STATUS
+echo "RUNNING" > STATUS
 
 cd ./greeno
 
